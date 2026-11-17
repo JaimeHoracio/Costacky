@@ -1,0 +1,16 @@
+{
+  "name": "costacky",
+  "owner": {
+    "name": "JaimeHoracio"
+  },
+  "metadata": {
+    "description": "A Claude Code workflow plugin for task sizing, code investigation, and context-aware execution."
+  },
+  "plugins": [
+    {
+      "name": "costacky",
+      "source": "./plugin",
+      "description": "Classify coding tasks, follow CodeGraph-first research guidance, and optionally run approved phased workflows."
+    }
+  ]
+}

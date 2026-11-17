@@ -1,0 +1,20 @@
+{
+  "name": "costacky",
+  "displayName": "Costacky",
+  "version": "0.0.1",
+  "description": "Task-leveling and context-aware workflows for Claude Code.",
+  "author": {
+    "name": "Costacky contributors"
+  },
+  "license": "MIT",
+  "userConfig": {
+    "context_target_tokens": {
+      "type": "number",
+      "title": "Context target (tokens)",
+      "description": "Advisory per-agent context target. It does not cap task-wide token use or cancel agents.",
+      "default": 150000,
+      "min": 120000,
+      "max": 180000
+    }
+  }
+}
