@@ -1,7 +1,7 @@
 {
   "name": "costacky",
   "displayName": "Costacky",
-  "version": "0.0.1",
+  "version": "0.2.0",
   "description": "Task-leveling and context-aware workflows for Claude Code.",
   "author": {
     "name": "Costacky contributors"
